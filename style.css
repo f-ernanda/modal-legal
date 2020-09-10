@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	align-items: center;
+	display: flex;
+	font-size: 1.6rem;
+	justify-content: center;
+}
+
+.main-content {
+	text-align: center;
+}
+
+.main-content > .title,
+.main-content > .content {
+	padding: 2rem;
+}
+
+.main-content > .btn {
+	padding: 1rem 2rem;
+}
+
+.modal-outer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(133, 133, 133, .3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-outer > .modal-inner {
+	background: green;
+	padding: 4rem;
+}
+
+.hidden {
+	display: none;
+}
