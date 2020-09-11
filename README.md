@@ -6,14 +6,15 @@ Primeiro da série de pequenos projetos para praticar o lindo do JS.
 
 ## ⚙ Funcionalidades
 
-- [ ] abrir modal ao clicar no botão
-- [ ] animar modal
-- [ ] fechar modal no X
-- [ ] fechar modal clicando fora dela
+- [X] abrir modal ao clicar no botão
+- [X] animar modal
+- [X] fechar modal no X
+- [X] fechar modal clicando fora dela
+- [ ] melhorar interface :D
 
 ## 📝 Licença
 
-Este projeto esta sob a licença [MIT](./LICENSE.md).
+Este projeto esta sob a licença [MIT](LICENSE.md).
 
 ---
 

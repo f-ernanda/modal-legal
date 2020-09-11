@@ -22,6 +22,11 @@ body {
 	justify-content: center;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .main-content {
 	text-align: center;
 }
@@ -41,15 +46,42 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(133, 133, 133, .3);
+	background: red;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.modal-outer > .modal-inner {
+.modal-inner {
 	background: green;
 	padding: 4rem;
+	width: 40%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	animation: 1s ease-out show;
+}
+
+@keyframes show {
+	from {
+		transform: translateY(-100vh);
+	}
+
+	to {
+		transform: translateY(0vh);
+	}
+}
+
+.modal-inner > .exit {
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translate(50%, -50%);
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	border: none;
 }
 
 .hidden {
