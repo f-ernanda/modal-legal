@@ -14,7 +14,7 @@ Primeiro da série de pequenos projetos para praticar o lindo do JS.
 
 ## 📝 Licença
 
-Este projeto esta sob a licença [MIT](LICENSE.md).
+Este projeto esta sob a licença [MIT](LICENSE).
 
 ---
 
